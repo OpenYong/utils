@@ -1,8 +1,8 @@
-function add(a, b) {
+function add(a: number, b: number) {
   return a + b;
 }
 
-function sum(numbers) {
+function sum(numbers: number[]) {
   let result = 0;
 
   for (const number of numbers) {
@@ -16,4 +16,4 @@ function greet() {
   console.log("Hi, there!");
 }
 
-module.exports = { add, sum, greet };
+export = { add, sum, greet };

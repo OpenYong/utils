@@ -1,14 +1,22 @@
 {
-  "name": "@musma-yong/utils",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "@musma-test/utils",
+  "version": "1.0.5",
+  "description": "JS utils for everyone",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
   },
   "keywords": [
     "musma"
   ],
   "author": "yong",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
